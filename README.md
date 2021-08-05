@@ -140,10 +140,12 @@ services:
 
 You can start them by running `docker-compose up -d` inside the folder, so it will run the file automatically.
 
-More about how to use [Docker compose]()
+More about how to use [Docker compose][1]
 
 To check the services health, go to `http://localhost:8080/actuator/health` and see the output:
 
 ```json
 { "status" : "UP" }
 ```
+
+[1]: https://docs.docker.com/compose/install/
